@@ -9,7 +9,7 @@ import "./globals.css";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anime Palace",
+  title: "Anime King Palace",
   description: "Your favorite anime, all in one place.",
   icons: {
     icon: "/logo.svg",
