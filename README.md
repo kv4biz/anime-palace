@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anime Viewer with Infinite Scroll
 
-## Getting Started
+![Banner](./public/hero.png)
 
-First, run the development server:
+Welcome to the Anime Palace! This web application allows users to explore a wide range of anime, with an infinite scroll feature for seamless browsing. The app uses server-side actions in Next.js to fetch popular anime data from the Shikimori API, ensuring an optimized and smooth user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Infinite Scroll**: Automatically load more anime as you scroll down the page.
+- **Server Actions**: Efficient data fetching with server-side rendering for faster performance.
+- **Popular Anime List**: Discover anime ranked by popularity.
+- **Responsive Layout**: Optimized for all screen sizes, from mobile to desktop.
+- **Smooth Animations**: Engaging hover effects and transitions using Framer Motion.
+- **Real-time Updates**: Fetches the latest anime data from the Shikimori API.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Benefits of Server-Side Rendering (SSR)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Improved Performance**: By utilizing server actions, data is fetched and rendered on the server before being sent to the client, reducing load times and improving performance.
+- **SEO Optimization**: Since the content is pre-rendered on the server, it is more accessible for search engine crawlers, improving the visibility of your app in search results.
+- **Enhanced User Experience**: Server-side rendering ensures that users receive fully rendered pages on their initial load, improving the overall experience, especially for slower networks.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: React framework with built-in support for server-side rendering.
+- **Shikimori API**: Source of anime data.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Animation library for smooth transitions and hover effects.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Filter Options**: Add more filtering capabilities (e.g., genre, release year).
+- **User Accounts**: Allow users to save favorite anime and create watchlists.
+- **Detailed Anime Pages**: Add individual anime detail pages with more information.
